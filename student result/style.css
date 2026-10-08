@@ -1,0 +1,24 @@
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px;
+  text-align: center;
+  border: black;
+}
+h1 {
+  text-align: center;
+}
+body {
+  background-color: rgb(26, 150, 150);
+}
+#calculatorBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 10px;
+}
