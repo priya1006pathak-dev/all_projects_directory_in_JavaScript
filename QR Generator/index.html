@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Attendance System</h1>
+        <label for="studentName"> Student Name:</label>
+        <input type="text" id="studentName" placeholder="Enter the student name">
+        <br><br>
+
+        <label for="rollNumber"> Roll Number:</label>
+        <input type="text" id="rollNumber" placeholder="Enter the RollNumber">
+        <br><br>
+
+        <button id="markAttendance">Mark Attendance</button>
+        <div id="QRCode"></div>
+        <div id="attendanceResult">Attendance Result </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+}
+label {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 130px;
+  height: 30px;
+}
+input {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 30px;
+
+  border-radius: 15px;
+}
+button {
+  display: block;
+  margin: auto;
+  width: 130px;
+  height: 30px;
+
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+p {
+  margin: auto;
+  margin-top: 30px;
+  background-color: darkgray;
+  width: 150px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+.container {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 50px;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+body {
+  background-color: darkslategray;
+}
