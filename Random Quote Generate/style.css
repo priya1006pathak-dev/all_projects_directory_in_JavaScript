@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: chocolate;
+  font-family: Arial, sans-serif;
+  justify-content: center; /* Horizontal center */
+  align-items: center; /* vertiical center*/
+}
+button {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: chocolate;
+  margin-top: 100px;
+  border: 2px soild white;
+  /* border-radius: 5px; */
+  outline: 2px solid white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.quote-box {
+  width: 600px;
+  height: 200px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  position: relative;
+}
+.quote-icon {
+  font-size: 50px;
+  color: chocolate;
+  margin: 0;
+}
+.quote-text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.twitter-icon {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: #1da1f2;
+  font-size: 24px;
+}
